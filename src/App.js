@@ -10,7 +10,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="blog-preview-container">
+    <article className="blog-preview-container" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       < img src = {image} alt = "image" className ="main-image" />
       <Category />
       <Date />
@@ -18,7 +20,7 @@ function App() {
       <Paragraph  />
       <Author />
 
-    </div>
+    </article>
   );
 }
 

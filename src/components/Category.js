@@ -1,5 +1,5 @@
 function Category() {
-    return <small className="category">Learning</small>;
+    return <p className="category">Learning</p>;
 }
 
 export default Category;
